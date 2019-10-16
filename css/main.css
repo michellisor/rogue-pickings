@@ -189,5 +189,35 @@ footer span {
 	}
 }
 @media (min-width: 1200px) {
-	
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		height: auto;
+		float: left;
+		border-top: 1px solid #eee;
+	}
+
+	.section-one h4 {
+		padding: 10px 0;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+
+	.section-two h4,
+	.section-three h4 {
+		padding: 10px 30px;
+	}
+
+	.menu {
+		list-style: none;
+		padding: 0;
+	}
+	.menu li {
+		padding: 10px 0;
+		color:#77a466;
+	}
 }
