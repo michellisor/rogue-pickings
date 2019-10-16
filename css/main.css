@@ -130,12 +130,7 @@ header nav ul li a{
 .section-three {
 	flex: 1 1 150px;
 	height: auto;
-	border-top: 1px solid #eee;
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-.section-three {
-	border-bottom: 1px solid #eee;
+	border: 1px solid #eee;
 }
 .section-one h4,
 .section-two h4,
@@ -170,7 +165,6 @@ footer {
 	justify-content: center;
 	align-content: center;
 	height: 50px;
-	border-top: 3px solid #eee;
 	margin: 0 auto;
 	clear: both;
 	text-align: center;
@@ -189,35 +183,4 @@ footer span {
 	}
 }
 @media (min-width: 1200px) {
-	.section-one,
-	.section-two,
-	.section-three {
-		width: 33%;
-		height: auto;
-		float: left;
-		border-top: 1px solid #eee;
-	}
-
-	.section-one h4 {
-		padding: 10px 0;
-	}
-
-	.section-two {
-		border-left: 1px solid #eee;
-		border-right: 1px solid #eee;
-	}
-
-	.section-two h4,
-	.section-three h4 {
-		padding: 10px 30px;
-	}
-
-	.menu {
-		list-style: none;
-		padding: 0;
-	}
-	.menu li {
-		padding: 10px 0;
-		color:#77a466;
-	}
 }
